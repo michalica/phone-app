@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import App from './App/App';
 import * as serviceWorker from './serviceWorker';
 
+require('es6-promise').polyfill();
+require('isomorphic-fetch');
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
