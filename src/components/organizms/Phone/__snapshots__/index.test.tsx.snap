@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot tests testing rendered tree 1`] = `
+.emotion-0 {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-color: #cdcdcd;
+  outline: none;
+  height: 30px;
+}
+
+<div>
+  <div
+    class="emotion-1"
+  >
+    <input
+      aria-label="numbers"
+      class="emotion-0"
+      value=""
+    />
+  </div>
+</div>
+`;

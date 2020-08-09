@@ -2,7 +2,11 @@ import React, { ReactElement } from 'react';
 import styled from '@emotion/styled';
 
 const defaultProps = {
-  Wrapper: styled.div``,
+  Wrapper: styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  `,
   Content: styled.div``,
 };
 
