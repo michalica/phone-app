@@ -14,16 +14,16 @@ const useSuggestions = () => {
   };
 
   useEffect(() => {
-    const fetch = async () => {
-      const result = await httpClient.getFrom<{ suggestions: string[] }>(url);
-      setSuggestions(result.suggestions);
-    };
-
     const httpClient = new HttpClient();
     const url = new UrlBuilder(config.host)
       .addPath('suggestions')
       .withQuery({ name: 'digits', value: searchValue }, true)
       .build();
+
+    const fetch = async () => {
+      const result = await httpClient.getFrom<{ suggestions: string[] }>(url);
+      setSuggestions(result.suggestions);
+    };
 
     fetch();
   }, [searchValue]);

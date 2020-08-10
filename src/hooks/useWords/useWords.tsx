@@ -4,7 +4,7 @@ import HttpClient from '../../HttpClient/HttpClient';
 import { config } from '../../config';
 import UrlBuilder from '../../UrlBuilder/UrlBuilder';
 
-const useWords = () => {
+const useWords = (httpClient: HttpClient = new HttpClient()) => {
   const [words, setWords] = useState<string[]>([]);
 
   const [value, setValue] = useState('');
@@ -15,16 +15,17 @@ const useWords = () => {
   };
 
   useEffect(() => {
-    const fetch = async () => {
-      const result = await httpClient.getFrom<{ words: string[] }>(url);
-      setWords(result.words);
-    };
-
-    const httpClient = new HttpClient();
     const url = new UrlBuilder(config.host)
       .addPath('words')
       .withQuery({ name: 'digits', value: searchValue }, true)
       .build();
+
+    const fetch = () => {
+      const result = httpClient.getFrom<{ words: string[] }>(url);
+      result.then((res) => {
+        setWords(res.words);
+      });
+    };
 
     fetch();
   }, [searchValue]);

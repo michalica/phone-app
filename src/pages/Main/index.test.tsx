@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import Main from './Main';
 import BaseTemplate from '../../templates/BaseTemplate/BaseTemplate';
-import Phone from '../../components/organizms/Phone';
+import SuggestionsContainer from '../../containers/SuggestionsContainer';
 
 describe('smoke test', () => {
   it('should exist', () => {
@@ -15,11 +15,26 @@ describe('assertion test', () => {
     expect(shallow(<Main />).find(BaseTemplate).length).toBe(1);
   });
 
-  it('should have Phone component', () => {
+  it('should have SuggestionsContainer', () => {
     expect(
       shallow(<Main />)
         .renderProp('render')()
-        .find(Phone).length
+        .find(SuggestionsContainer).length
     ).toBe(1);
+  });
+
+  it('should have WordsContainer', () => {
+    expect(
+      shallow(<Main />)
+        .renderProp('render')()
+        .find(SuggestionsContainer)
+        .prop('render')({ suggestions: [], getSuggestions: () => undefined })
+    ).toMatchInlineSnapshot(
+      `
+      <WordsContainer
+        render={[Function]}
+      />
+    `
+    );
   });
 });

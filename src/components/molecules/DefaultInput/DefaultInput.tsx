@@ -31,7 +31,7 @@ const DefaultInput = ({
     onChangeCallback && onChangeCallback(value);
   }, [value]);
 
-  return children!({  value, setValue, ...props });
+  return children!({ value, setValue, ...props });
 };
 
 DefaultInput.defaultProps = {

@@ -7,4 +7,5 @@ export default styled.input`
   border-color: #cdcdcd;
   outline: none;
   height: 30px;
+  font-family: 'Roboto', sans-serif;
 `;

@@ -8,6 +8,7 @@ exports[`snapshot tests testing rendered tree 1`] = `
   border-color: #cdcdcd;
   outline: none;
   height: 30px;
+  font-family: "Roboto",sans-serif;
 }
 
 <div>

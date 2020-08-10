@@ -2,7 +2,6 @@ import React from 'react';
 import BaseTemplate from '../../templates/BaseTemplate/BaseTemplate';
 import Phone from '../../components/organizms/Phone';
 import WordsContainer from '../../containers/WordsContainer';
-import Words from '../../components/atoms/Words';
 import SuggestionsContainer from '../../containers/SuggestionsContainer';
 
 const Main = () => {
@@ -20,10 +19,9 @@ const Main = () => {
                         getWords(newValue);
                         getSuggestions(newValue);
                       }}
+                      suggestions={suggestions}
+                      words={words}
                     />
-                    {suggestions.map((w, num) => (
-                      <Words key={w}>{w}</Words>
-                    ))}
                   </>
                 );
               }}
