@@ -7,7 +7,11 @@ const defaultProps = {
     display: flex;
     justify-content: center;
   `,
-  Content: styled.div``,
+  Content: styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  `,
 };
 
 type Props = Readonly<
