@@ -6,6 +6,8 @@ Production url: https://stormy-cliffs-34914.herokuapp.com/
 
 ## Commands
 
+Run `yarn` to install all dependencies
+
 Start app `yarn start`
 Build app `yarn build`
 Run code formatter `ỳarn format`
