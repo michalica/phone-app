@@ -4,7 +4,7 @@ import HttpClient from '../../HttpClient/HttpClient';
 import { config } from '../../config';
 import UrlBuilder from '../../UrlBuilder/UrlBuilder';
 
-const useWords = (httpClient: HttpClient = new HttpClient()) => {
+const useWords = () => {
   const [words, setWords] = useState<string[]>([]);
 
   const [value, setValue] = useState('');
@@ -21,6 +21,7 @@ const useWords = (httpClient: HttpClient = new HttpClient()) => {
       .build();
 
     const fetch = () => {
+      const httpClient: HttpClient = new HttpClient();
       const result = httpClient.getFrom<{ words: string[] }>(url);
       result.then((res) => {
         setWords(res.words);

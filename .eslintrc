@@ -72,6 +72,7 @@
     "react/jsx-wrap-multilines": "off",
     "react/destructuring-assignment": "off",
     "class-methods-use-this": "off",
-    "import/no-named-as-default-member": "off"
+    "import/no-named-as-default-member": "off",
+    "radix": "off"
   }
 }
