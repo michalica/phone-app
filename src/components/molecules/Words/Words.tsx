@@ -3,7 +3,12 @@ import styled from '@emotion/styled';
 import Word from '../../atoms/Word';
 
 export const defaultProps = {
-  Wrapper: styled.div``,
+  Wrapper: styled.div`
+    display: flex;
+    flex-direction: row;
+    max-width: 500px;
+    flex-wrap: wrap;
+  `,
   WordComponent: Word,
 };
 
@@ -20,8 +25,13 @@ const Words = ({ children, ...props }: { children: Children } & Props) =>
 
 Words.defaultProps = {
   ...defaultProps,
-  children: ({ words, WordComponent }: Props) =>
-    words.map((word) => <WordComponent key={word}>{word}</WordComponent>),
+  children: ({ words, WordComponent, Wrapper }: Props) => (
+    <Wrapper>
+      {words.map((word) => (
+        <WordComponent key={word}>{word}</WordComponent>
+      ))}
+    </Wrapper>
+  ),
 };
 
 export default Words;

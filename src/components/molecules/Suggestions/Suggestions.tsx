@@ -3,13 +3,19 @@ import styled from '@emotion/styled';
 import Suggestion from '../../atoms/Suggestion';
 
 export const defaultProps = {
-  Wrapper: styled.div``,
-  SuggestionComponent: Suggestion,
+  Wrapper: styled.div`
+    display: flex;
+    flex-direction: column;
+  `,
+  SuggestionComponent: styled(Suggestion)`
+    margin-bottom: 3px;
+  `,
 };
 
 type Props = Readonly<
   typeof defaultProps & {
   suggestions: string[];
+  numberOfSuggestions?: number;
 }
 >;
 
@@ -20,10 +26,20 @@ const Suggestions = ({ children, ...props }: { children: Children } & Props) =>
 
 Suggestions.defaultProps = {
   ...defaultProps,
-  children: ({ suggestions, SuggestionComponent }: Props) =>
-    suggestions.map((sug) => (
-      <SuggestionComponent key={sug}>{sug}</SuggestionComponent>
-    )),
+  children: ({
+    suggestions,
+    SuggestionComponent,
+    Wrapper,
+    numberOfSuggestions,
+  }: Props) => (
+    <Wrapper>
+      {suggestions
+        .map((sug) => (
+          <SuggestionComponent key={sug}>{sug}</SuggestionComponent>
+        ))
+        .slice(0, numberOfSuggestions)}
+    </Wrapper>
+  ),
 };
 
 export default Suggestions;

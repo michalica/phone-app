@@ -1,3 +1,3 @@
-import Words from './Words';
+import Word from './Word';
 
-export default Words;
+export default Word;

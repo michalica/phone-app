@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useEffect, useState } from 'react';
+import React, { ChangeEvent, useState } from 'react';
 import InputAtom from '../../atoms/Input';
 
 export const defaultProps = {
@@ -13,7 +13,6 @@ type Props = Readonly<
   typeof defaultProps &
 Value & {
   onChange?(e: ChangeEvent<HTMLInputElement>, props: Value): void;
-  onChangeCallback?(newValue: string): void;
 }
 >;
 
@@ -24,12 +23,6 @@ const DefaultInput = ({
   ...props
 }: { children?: Children } & Props) => {
   const [value, setValue] = useState('');
-
-  const { onChangeCallback } = props;
-
-  useEffect(() => {
-    onChangeCallback && onChangeCallback(value);
-  }, [value]);
 
   return children!({ value, setValue, ...props });
 };

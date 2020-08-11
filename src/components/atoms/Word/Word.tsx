@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-const Suggestion = styled.div`
+const Word = styled.div`
   background: #cdcdcd;
   padding: 7px 10px;
   font-family: 'Roboto', sans-serif;
@@ -8,4 +8,4 @@ const Suggestion = styled.div`
   text-align: center;
 `;
 
-export default Suggestion;
+export default Word;

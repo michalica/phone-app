@@ -8,4 +8,5 @@ export default styled.input`
   outline: none;
   height: 30px;
   font-family: 'Roboto', sans-serif;
+  text-align: center;
 `;
