@@ -21,11 +21,6 @@ const NoMessageWrapper = styled.div`
 `;
 
 const Main = () => {
-  const getLastWord = (sentence: string): string => {
-    const words = sentence.split(' ');
-    return words[words.length - 1];
-  };
-
   return (
     <BaseTemplate
       render={() => (
@@ -72,3 +67,8 @@ const Main = () => {
 };
 
 export default Main;
+
+export const getLastWord = (sentence: string): string => {
+  const words = sentence.split(' ');
+  return words[words.length - 1];
+};

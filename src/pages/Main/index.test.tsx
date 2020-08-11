@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Main from './Main';
+import Main, { getLastWord } from './Main';
 import BaseTemplate from '../../templates/BaseTemplate/BaseTemplate';
 import SuggestionsContainer from '../../containers/SuggestionsContainer';
 
@@ -36,5 +36,11 @@ describe('assertion test', () => {
       />
     `
     );
+  });
+
+  it('should return last word', () => {
+    expect(getLastWord('125 456641 12')).toBe('12');
+    expect(getLastWord('')).toBe('');
+    expect(getLastWord('123')).toBe('123');
   });
 });
