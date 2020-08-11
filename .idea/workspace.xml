@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28eca2e2-afeb-4cd4-b77c-c600d32b7d21" name="Default Changelist" comment="adding keyboard to phone, generating random color, editing styles og Phone">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/phone-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fp4B6vsU2k7ftOYdTtn4dVZgWN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../phone" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/molecules" />
+      <recent name="$PROJECT_DIR$/src/containers" />
+      <recent name="$PROJECT_DIR$/src/hooks" />
+      <recent name="$PROJECT_DIR$/src/components/atoms" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/App" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28eca2e2-afeb-4cd4-b77c-c600d32b7d21" name="Default Changelist" comment="" />
+      <created>1596901562274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596901562274</updated>
+      <workItem from="1596901563314" duration="125000" />
+      <workItem from="1596909007039" duration="622000" />
+      <workItem from="1596967031387" duration="26082000" />
+      <workItem from="1597039609656" duration="5387000" />
+      <workItem from="1597082537849" duration="16161000" />
+    </task>
+    <task id="LOCAL-00001" summary="adding lint with prettier">
+      <created>1596968196628</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596968196628</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding enzyme, create folder structure, create page">
+      <created>1596969326054</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596969326054</updated>
+    </task>
+    <task id="LOCAL-00003" summary="adding main page with template, adding react testing library">
+      <created>1596971524866</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596971524866</updated>
+    </task>
+    <task id="LOCAL-00004" summary="adding input element">
+      <created>1596978297781</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596978297781</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adding HttpClient">
+      <created>1596981381122</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596981381122</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adding URL builder and config file">
+      <created>1596992975882</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596992975882</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adding suggestion and word atom">
+      <created>1596993000964</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596993000964</updated>
+    </task>
+    <task id="LOCAL-00008" summary="remove callback in DefaultInput">
+      <created>1596993041078</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596993041078</updated>
+    </task>
+    <task id="LOCAL-00009" summary="adding on Input callback to phone">
+      <created>1596993070623</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596993070623</updated>
+    </task>
+    <task id="LOCAL-00010" summary="adding hooks that use API">
+      <created>1596993143348</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1596993143348</updated>
+    </task>
+    <task id="LOCAL-00011" summary="adding container to provide data from hooks">
+      <created>1596993163837</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596993163837</updated>
+    </task>
+    <task id="LOCAL-00012" summary="listing words and suggestions">
+      <created>1596993191262</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1596993191262</updated>
+    </task>
+    <task id="LOCAL-00013" summary="refactoring, addin new tests">
+      <created>1597044970546</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1597044970546</updated>
+    </task>
+    <task id="LOCAL-00014" summary="adding Button">
+      <created>1597129994320</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1597129994320</updated>
+    </task>
+    <task id="LOCAL-00015" summary="editing styles in Template, listing all words and suggestions under the phone">
+      <created>1597130075412</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1597130075412</updated>
+    </task>
+    <task id="LOCAL-00016" summary="adding getLastWord function">
+      <created>1597130332693</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1597130332693</updated>
+    </task>
+    <task id="LOCAL-00017" summary="refactoring">
+      <created>1597130351068</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1597130351068</updated>
+    </task>
+    <task id="LOCAL-00018" summary="adding styles">
+      <created>1597130401388</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1597130401388</updated>
+    </task>
+    <task id="LOCAL-00019" summary="adding keyboard to phone, generating random color, editing styles og Phone">
+      <created>1597130466765</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1597130466765</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding lint with prettier" />
+    <MESSAGE value="adding enzyme, create folder structure, create page" />
+    <MESSAGE value="adding main page with template, adding react testing library" />
+    <MESSAGE value="adding input element" />
+    <MESSAGE value="adding HttpClient" />
+    <MESSAGE value="adding URL builder and config file" />
+    <MESSAGE value="adding suggestion and word atom" />
+    <MESSAGE value="remove callback in DefaultInput" />
+    <MESSAGE value="adding on Input callback to phone" />
+    <MESSAGE value="adding hooks that use API" />
+    <MESSAGE value="adding container to provide data from hooks" />
+    <MESSAGE value="listing words and suggestions" />
+    <MESSAGE value="refactoring, addin new tests" />
+    <MESSAGE value="adding Button" />
+    <MESSAGE value="editing styles in Template, listing all words and suggestions under the phone" />
+    <MESSAGE value="adding getLastWord function" />
+    <MESSAGE value="refactoring" />
+    <MESSAGE value="adding styles" />
+    <MESSAGE value="adding keyboard to phone, generating random color, editing styles og Phone" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding keyboard to phone, generating random color, editing styles og Phone" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2048" y="354" width="600" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596982779717">
+      <screen x="1360" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2048" y="354" width="600" height="396" key="#com.intellij.fileTypes.FileTypeChooser/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596982779717" />
+    <state x="1737" y="118" width="1041" height="869" key="CommitChangelistDialog2" timestamp="1597130478336">
+      <screen x="1360" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1597044970421" />
+    <state x="1737" y="118" width="1041" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1597130478336" />
+    <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog" timestamp="1597130476124">
+      <screen x="1360" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1597044940299" />
+    <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1597130476124" />
+    <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1597129220077">
+      <screen x="1360" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1597044989695" />
+    <state x="2136" y="310" key="FileChooserDialogImpl/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1597129220077" />
+    <state x="2120" y="255" width="456" height="595" key="RollbackChangesDialog" timestamp="1596994983300">
+      <screen x="1360" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2120" y="255" width="456" height="595" key="RollbackChangesDialog/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596994983300" />
+    <state x="2101" y="138" width="1339" height="708" key="dock-window-1" timestamp="1596992934442">
+      <screen x="1360" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2101" y="138" width="1339" height="708" key="dock-window-1/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596992934442" />
+    <state x="2044" y="291" width="618" height="594" key="find.popup" timestamp="1597128890681">
+      <screen x="1360" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2044" y="291" width="618" height="522" key="find.popup/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1597043462651" />
+    <state x="2044" y="291" width="618" height="594" key="find.popup/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1597128890681" />
+    <state x="2017" y="253" key="run.anything.popup" timestamp="1596974302807">
+      <screen x="1360" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2017" y="253" key="run.anything.popup/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596974302807" />
+    <state x="2016" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1597094593393">
+      <screen x="1360" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2016" y="257" width="672" height="678" key="search.everywhere.popup/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596989010359" />
+    <state x="2016" y="257" width="672" height="678" key="search.everywhere.popup/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1597094593393" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/organizms/Phone/Phone.tsx</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
