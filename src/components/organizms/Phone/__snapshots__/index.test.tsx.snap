@@ -36,6 +36,7 @@ exports[`snapshot testing testing rendered tree 1`] = `
 
 .emotion-2 {
   height: 120px;
+  margin-top: 10px;
 }
 
 .emotion-1 {
@@ -109,7 +110,11 @@ exports[`snapshot testing testing rendered tree 1`] = `
       class="emotion-4"
     >
       <div>
-        Try 236:
+        Try 
+        <b>
+          236
+        </b>
+        :
       </div>
       <div
         class="emotion-2"

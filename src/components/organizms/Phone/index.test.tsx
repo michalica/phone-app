@@ -29,11 +29,6 @@ describe('assertion tests', () => {
 
     expect(buttons.length).toBe(9);
   });
-  it('has label', () => {
-    const { getByText } = utils;
-
-    expect(getByText('Try 236:')).toBeInTheDocument();
-  });
   it('click button change input value', () => {
     const { getByText, getByLabelText } = utils;
 

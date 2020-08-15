@@ -24,6 +24,7 @@ export const defaultProps = {
   `,
   SuggestionsWrapper: styled.div`
     height: 120px;
+    margin-top: 10px;
   `,
   WordsWrapper: styled.div`
     height: 100px;
@@ -112,7 +113,9 @@ Phone.defaultProps = {
       <Speaker />
       <Display>
         <>
-          <div>Try 236:</div>
+          <div>
+            Try <b>236</b>:
+          </div>
           <SuggestionsWrapper>
             <SuggestionComponent
               suggestions={suggestions}
